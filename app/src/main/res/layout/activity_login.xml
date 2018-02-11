@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.sgoff.achieversacademy.LoginAct">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="215dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/first_phoneno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/first_phoneno"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_borders"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/first_password"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_borders"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/first_forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/first_password"
+        tools:layout_editor_absoluteX="45dp" />
+
+
+
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/first_login"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Log In"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_forgotpass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/first_registerbut"
+        android:layout_width="320dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/regbutton"
+        android:text="Register"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_login"
+        app:layout_constraintVertical_bias="0.23" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "562596114274",
+    "firebase_url": "https://achieversacademy-a6c28.firebaseio.com",
+    "project_id": "achieversacademy-a6c28",
+    "storage_bucket": "achieversacademy-a6c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562596114274:android:4364d49e8f932972",
+        "android_client_info": {
+          "package_name": "com.example.sgoff.achieversacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562596114274-gns67n9js60mbsfqku00fecobsbm5civ.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sgoff.achieversacademy",
+            "certificate_hash": "eb2853ec47e15b2e5e578b85f3398915060e6936"
+          }
+        },
+        {
+          "client_id": "562596114274-3endm5jvs9cfgblagich3893jakufa26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4qCT9VYyA-B--tg3-pLvhuFbaHQXfez8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562596114274-3endm5jvs9cfgblagich3893jakufa26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
